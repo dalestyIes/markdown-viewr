@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Markdown Viewr</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" />
+</head>
+<body>
+  <header>
+    <h1>Markdown Viewr</h1>
+    <button id="toggle-mode">🌙 Dark Mode</button>
+    <button id="export-btn">⬇️ Export .md</button>
+  </header>
+  <main>
+    <textarea id="markdown-input" placeholder="Type your markdown here..."></textarea>
+    <div id="preview" class="markdown-body"></div>
+  </main>
+
+  <script src="libs/marked.min.js"></script>
+  <script src="libs/highlight.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
