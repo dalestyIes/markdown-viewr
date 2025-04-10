@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Markdown Text Formatter</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Markdown Text Formatter</h1>
+    <button id="export-button">Export Markdown</button>
+  </header>
+  <main>
+    <textarea id="editor" placeholder="Type your markdown text"></textarea>
+    <div id="formatted-output"></div>
+  </main>
+
+  <script src="libs/marked.min.js"></script>
+  <script src="libs/highlight.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
